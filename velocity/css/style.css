@@ -1,0 +1,138 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.head_bec{
+    background-image:url(../img/haed_bec.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.head_h2{
+    font-size: 60px;
+}
+
+
+.btn_sign{
+    width: 140px;
+    height: 45px;
+    background: #69B9FF;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+}
+
+.btn_learn{
+   width: 150px;
+   height: 45px;
+   border-radius: 4px;
+   border: 1px solid black; 
+   background: none;
+   color: white;
+   font-size: 17px;
+}
+.bac_btn{
+    gap: 20px;
+}
+.main_what{
+    text-align: center;
+}
+
+.what_about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_div{
+    width: 391px;
+}
+.main_sec_one{
+    text-align: center;  
+    color: white;
+    background-color: #192024;
+    height: 842px;
+}
+
+.main_servise{
+    color: white;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servise_p{
+    width: 400px;
+    height: 100px;
+}
+
+
+.servise_btn{
+    width: 183px;
+    height: 43px;
+    background: none;
+    color: white;
+    border: 1px solid black;
+}
+
+@media screen and (min-width:400px) {
+    .container{
+        width: 375px;
+
+    }
+    .head_h2{
+        padding-top: 100px;
+        font-size: 30px;
+    }
+    .btn_sign{
+        
+        width: 80px;
+        height: 25px;
+    }
+    .btn_learn{
+        width: 80px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .head_bec{
+        width: 100%;
+        height: 300px;
+
+    }    
+    .what_about{
+        display: block;
+    }
+    .about_div{
+        margin-top: 20px;
+    }
+    .main_servise{
+        display: block;
+    }
+    .main_servise img{
+        width: 100%;
+    }
+}
